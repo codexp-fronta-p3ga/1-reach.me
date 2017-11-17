@@ -1,0 +1,37 @@
+*, *::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 15px;
+    padding: 7px 20px;
+    }
+
+.transparente {
+
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+
+.blue {
+
+background-color: #0089f4;
+color: white;
+
+}
+
+.black {
+
+background-color: #364049;
+color: white;
+
+
+}
