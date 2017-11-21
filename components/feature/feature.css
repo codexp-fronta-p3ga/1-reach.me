@@ -87,6 +87,11 @@ html, body{
     list-style: none;
 }
 
+.feature__social-media{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px
+}
 
 /*Imagem*/
 
