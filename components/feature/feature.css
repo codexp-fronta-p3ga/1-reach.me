@@ -37,21 +37,23 @@ html, body{
 
 .feature--div{
     width: 40%;
-    margin: 0;
+   
     
 }
 
 
 /*Elementos*/
 
-.feature__title{
+.feature__title{    
     font-size: 2rem;
     margin: 0;
 }
 
 .feature__text{
+    width: 175px;
+
     color: #a2aebb;
-    margin: 0 0 1rem;
+    margin: 0 0 0.7rem;
 }
 
 
@@ -91,6 +93,10 @@ html, body{
     width: 30px;
     height: 30px;
     padding-top: 10px
+}
+
+.engagement{
+    margin-right: 200   px;
 }
 
 /*Imagem*/
