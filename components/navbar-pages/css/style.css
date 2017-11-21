@@ -1,0 +1,33 @@
+*, *::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-pages__link:nth-child(2), .navbar-pages__link:nth-child(3), .navbar-pages__link:nth-child(4), .navbar-pages__link:nth-child(5){
+    margin-left: 20px;
+}
+
+.navbar-pages__link a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-pages__link--active a:active{
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+    padding-bottom: 30px;
+    
+}
